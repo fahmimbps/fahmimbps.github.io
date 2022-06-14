@@ -13,12 +13,11 @@ The main benefit of this application is that BPS Province and BPS Regency/City c
 
 Another benefit, this application functions as a data backup.
 
-```
-- **Laravel 9**
+-  **Laravel 9**
 - **Tailwind CSS v3.1**
 - **Alpinejs v2**
 - **Livewire v2.x**
-```
+
 
 Check this out! [SiLALITA](https://app.32net.id/silalita/public).
 
@@ -26,11 +25,9 @@ Check this out! [SiLALITA](https://app.32net.id/silalita/public).
 
 A medium for self-development, sharing knowledge, and spreading the benefits from Statistics of Jawa barat Province for Indonesia Forward Indonesia Grows.
 
-```
 - **Laravel 9**
 - **Tailwind CSS v3.1**
 - **Alpinejs v2**
 - **Livewire v2.x**
-```
 
 Check this out! [Artikel](https://app.32net.id/artikel/public).
