@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Halaman Kedua
-permalink: /pages/
+permalink: /pages/gscrape/
 ---
 # GScrape
 # Dokumentasi Penggunaan gscrape.py
