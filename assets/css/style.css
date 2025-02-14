@@ -66,22 +66,24 @@ ul li::before {
 }
 
 /* Blok Kode */
-/* Styling untuk kode dalam teks */
-code {
-  background: #f6f8fa;
-  color: #e83e8c;
-  padding: 3px 5px;
-  border-radius: 3px;
-  font-family: "Courier New", monospace;
-}
-
-/* Styling untuk blok kode */
+/* Blok kode dengan latar belakang gelap dan teks yang lebih kontras */
 pre {
-  background: #2d2d2d;  /* Warna abu-abu gelap */
-  color: #f8f8f2;
+  background: #282c34;  /* Warna gelap lebih nyaman (mirip VS Code) */
+  color: #abb2bf;       /* Warna teks abu-abu terang agar mudah dibaca */
   padding: 15px;
   border-radius: 5px;
   overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Styling untuk teks kode dalam paragraf */
+code {
+  background: #3b3f46;  /* Warna lebih gelap agar kontras dengan teks */
+  color: #e6e6e6;
+  padding: 3px 5px;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
 }
 
 /* Warna untuk syntax highlight menggunakan Rouge */
