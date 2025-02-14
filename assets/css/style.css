@@ -54,15 +54,23 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Daftar (List) */
-ul, ol {
-    margin-left: 20px;
+/* Pastikan hanya ada satu bullet */
+ul {
+    list-style-type: none; /* Hilangkan bullet bawaan */
+    padding-left: 0; /* Sesuaikan dengan margin */
+}
+
+ul li {
+    position: relative;
+    padding-left: 20px; /* Jarak teks dari bullet */
 }
 
 ul li::before {
     content: "• ";
     color: #007BFF;
     font-weight: bold;
+    position: absolute;
+    left: 0;
 }
 
 /* Blok Kode */
