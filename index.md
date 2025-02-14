@@ -49,5 +49,5 @@ GScrape is an application designed to efficiently scrape data from Google Maps.
 - **Selenium**
 - **Requests**
 
-Check this out! [GScrape](pages/gscrape.md) untuk menuju halaman kedua.
+Check this out! [GScrape](pages/gscrape.md)
 
