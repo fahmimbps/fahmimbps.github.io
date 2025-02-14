@@ -4,7 +4,7 @@ baseurl: ""  # Kosongkan jika menggunakan repositori dengan format username.gith
 url: "https://fahmimbps.github.io"  # Sesuaikan dengan URL GitHub Pages kamu
 
 # Tema yang digunakan
-theme: None
+theme: null
 markdown: kramdown
 highlighter: rouge
 
