@@ -1,3 +1,8 @@
+---
+layout: default
+title: Halaman Kedua
+permalink: /pages/
+---
 # GScrape
 # Dokumentasi Penggunaan gscrape.py
 
@@ -51,3 +56,4 @@ Script ini dikembangkan untuk kebutuhan scraping data infrastruktur dari Google 
 **Versi Script:** 1.0  
 **Tanggal Rilis:** Februari 2025
 
+[Kembali ke Halaman Utama](../)
