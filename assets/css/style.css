@@ -1,7 +1,11 @@
+/* Styling dasar untuk Markdown */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #eef1f7;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
 }
+
 .container {
     max-width: 800px;
     margin: auto;
@@ -10,32 +14,87 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-main {
+
+/* Judul */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    border-left: 5px solid #007BFF;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Paragraf */
+p {
+    color: #555;
     line-height: 1.6;
 }
-main h1, main h2, main h3 {
-    color: #333;
-}
-main p {
-    color: #555;
-}
-main a {
+
+/* Link */
+a {
     color: #007BFF;
     text-decoration: none;
+    font-weight: bold;
 }
-main a:hover {
+
+a:hover {
     text-decoration: underline;
 }
-main code {
+
+/* Daftar (List) */
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li::before {
+    content: "• ";
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Blok Kode */
+pre {
+    background: #272822;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
     background: #eee;
-    padding: 2px 5px;
+    padding: 3px 5px;
     border-radius: 5px;
     font-family: "Courier New", monospace;
 }
-main pre {
-    background: #272822;
-    color: #f8f8f2;
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
     padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
+    text-align: left;
+}
+
+th {
+    background: #007BFF;
+    color: white;
 }
