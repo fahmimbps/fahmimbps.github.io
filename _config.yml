@@ -4,7 +4,9 @@ baseurl: ""  # Kosongkan jika menggunakan repositori dengan format username.gith
 url: "https://fahmimbps.github.io"  # Sesuaikan dengan URL GitHub Pages kamu
 
 # Tema yang digunakan
-theme: minima
+theme: none
+markdown: kramdown
+highlighter: rouge
 
 # Pastikan Jekyll memproses folder pages
 collections:
