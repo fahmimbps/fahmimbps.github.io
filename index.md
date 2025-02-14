@@ -1,8 +1,3 @@
-## Welcome to fahmim's GitHub Pages
-
-Here is a whole list of projects I've built.
-
-
 ### SiLALITA
 
 Data Traffic Information System
