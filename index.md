@@ -31,3 +31,23 @@ A medium for self-development, sharing knowledge, and spreading the benefits fro
 - **Livewire v2.x**
 
 Check this out! [Artikel](https://app.32net.id/artikel/public).
+
+# GScrape
+
+## Google Maps Scraping
+
+GScrape is an application designed to efficiently scrape data from Google Maps.
+
+### Main Benefits
+- Allows users to automatically collect business information from Google Maps.
+- Can be used for business data analysis, business mapping, and other statistical purposes.
+- Facilitates the storage and management of scraped data for various needs.
+
+### Technologies Used
+- **Python**
+- **BeautifulSoup**
+- **Selenium**
+- **Requests**
+
+Usage instructions and more information can be found in this documentation.
+
