@@ -1,3 +1,25 @@
-theme: jekyll-theme-minimal
-title: fahmim's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: "fahmim's homepage"
+description: "Bookmark this to keep an eye on my project updates!"
+baseurl: ""  # Kosongkan jika menggunakan repositori dengan format username.github.io
+url: "https://fahmimbps.github.io"  # Sesuaikan dengan URL GitHub Pages kamu
+
+# Jangan gunakan tema bawaan Jekyll
+theme: null
+
+# Pastikan Jekyll memproses folder pages
+collections:
+  pages:
+    output: true
+    permalink: /pages/:path/
+
+# Aktifkan kustomisasi layout
+include:
+  - _layouts
+  - assets
+
+# Jangan buat halaman untuk file README.md
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
