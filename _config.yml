@@ -3,8 +3,8 @@ description: "Bookmark this to keep an eye on my project updates!"
 baseurl: ""  # Kosongkan jika menggunakan repositori dengan format username.github.io
 url: "https://fahmimbps.github.io"  # Sesuaikan dengan URL GitHub Pages kamu
 
-# Jangan gunakan tema bawaan Jekyll
-theme: null
+# Tema yang digunakan
+theme: minima
 
 # Pastikan Jekyll memproses folder pages
 collections:
